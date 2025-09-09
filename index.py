@@ -22,4 +22,5 @@ def removeNote():
     return "Note remove Success"
 
 # server
-app.run(debug=True)
+if (__name__=="__main__"):
+ app.run(debug=True)
